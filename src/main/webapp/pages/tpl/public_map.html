@@ -1,0 +1,26 @@
+<div class="col-sm-6 col-md-4">
+  <div class="thumbnail" >
+    <h4 class="text-center"><span class="label label-info"><%= map.name %></span></h4>
+    <img src="/assets/gmap.jpg" class="img-responsive">
+    <div class="caption">
+      <div class="row">
+        <div class="col-md-6 col-xs-6">
+          <h3><%= map.username %></h3>
+        </div>
+        <div class="col-md-6 col-xs-6 price">
+          <h3>
+            <label>TAG</label></h3>
+        </div>
+      </div>
+      <p>Description</p>
+      <div class="row">
+        <div class="col-md-6">
+          <a class="btn btn-primary btn-product" href="/map.html?id=<%= map.id %>"><span class="glyphicon glyphicon-plus"></span> Open map</a> 
+        </div>
+        <div class="col-md-6">
+          <a class="btn btn-primary btn-product"><span class="glyphicon glyphicon-share"></span> Share with friends</a> 
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

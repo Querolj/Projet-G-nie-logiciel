@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+
+<html>
+   <head>
+    <meta charset="utf-8">
+    <meta name="robots" content="noindex, nofollow">
+
+    <title>PERSONAL MAP</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+   
+    <link rel="stylesheet" href="common.css" type="text/css"/>
+    <style>
+        .search-form .form-group {
+  float: right !important;
+  transition: all 0.35s, border-radius 0s;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+  border-radius: 25px;
+  border: 1px solid #ccc;
+}
+.search-form .form-group input.form-control {
+  padding-right: 20px;
+  border: 0 none;
+  background: transparent;
+  box-shadow: none;
+  display:block;
+}
+.search-form .form-group input.form-control::-webkit-input-placeholder {
+  display: none;
+}
+.search-form .form-group input.form-control:-moz-placeholder {
+  /* Firefox 18- */
+  display: none;
+}
+.search-form .form-group input.form-control::-moz-placeholder {
+  /* Firefox 19+ */
+  display: none;
+}
+.search-form .form-group input.form-control:-ms-input-placeholder {
+  display: none;
+}
+.search-form .form-group:hover,
+.search-form .form-group.hover {
+  width: 100%;
+  border-radius: 4px 25px 25px 4px;
+}
+.search-form .form-group span.form-control-feedback {
+  position: absolute;
+  top: -1px;
+  right: -2px;
+  z-index: 2;
+  display: block;
+  width: 34px;
+  height: 34px;
+  line-height: 34px;
+  text-align: center;
+  color: #3596e0;
+  left: initial;
+  font-size: 14px;
+}
+    </style>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+        window.alert = function(){};
+        var defaultCSS = document.getElementById('bootstrap-css');
+        function changeCSS(css){
+            if(css) $('head > link').filter(':first').replaceWith('<link rel="stylesheet" href="'+ css +'" type="text/css" />'); 
+            else $('head > link').filter(':first').replaceWith(defaultCSS); 
+        }
+        $( document ).ready(function() {
+          var iframe_height = parseInt($('html').height()); 
+        });
+    </script>
+</head>
+<body>
+	
+   
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Personal Map</a>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav">
+                        <li><a href="news_page.html" class="">Home</a></li>
+                        <li><a href="profil.html">Profile</a></li>
+                         <li><a href="map.html">Map Cards</a></li>
+                          <li><a href="friend.html">Friends</a></li>
+                          <li> <a href="#">
+                       <span class="glyphicon glyphicon-plus"></span> </a></li> 
+                    </ul>
+                    <ul class="nav navbar-nav pull-right">
+                     
+                <li>
+            		<form action="" class="search-form">
+                <div class="form-group has-feedback">
+            		<label for="search" class="sr-only">Search</label>
+            		<input type="text" class="form-control" name="search" id="search" placeholder="search">
+              		<span class="glyphicon glyphicon-search form-control-feedback"></span>
+            	</div>
+            </form>
+            	</li>
+                             <li>
+                                 <a href="homepage.html">
+                                     <span class="glyphicon glyphicon-log-out"></span></a>
+                             </li>
+                </ul>
+                  
+                </div>
+            </div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/332/699/datas/profile.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>profile name</h6>
+                            <p style="font-size: 12px;">Address</p>
+                            <button class="btn btn-primary btn-xs">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                View Maps</button>
+                            <button class="btn btn-danger btn-xs">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/332/699/datas/profile.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>profile name</h6>
+                            <p style="font-size: 12px;">Address</p>
+                            <button class="btn btn-primary btn-xs">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                View Maps</button>
+                            <button class="btn btn-danger btn-xs">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="col-md-4">
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="https://challengepost-s3-challengepost.netdna-ssl.com/photos/production/user_photos/000/332/699/datas/profile.jpg" class="img-responsive">
+                        </div>
+                        <div class="col-md-8">
+                            <h6>profile name</h6>
+                            <p style="font-size: 12px;">Address</p>
+                            <button class="btn btn-primary btn-xs">
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                                View Maps</button>
+                            <button class="btn btn-danger btn-xs">
+                                <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                Delete</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+    </div>
+        
+</div>
+	<script type="text/javascript">
+	
+	</script>
+      
+</body>
+</html>
